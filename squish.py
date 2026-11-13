@@ -18,3 +18,13 @@ print("x = ", x)
 params, params_cov = scipy.optimize.curve_fit(linear, x, y)
 slope = params[0]
 intercept = params[1]
+
+
+### Exercise 1
+
+print_equation(slope, intercept, "g", "mm")
+
+### The equation of the line is: y =  -0.05261904761904779 mm/g x +  58.21428571428577 mm 
+
+
+
