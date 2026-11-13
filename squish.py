@@ -27,4 +27,14 @@ print_equation(slope, intercept, "g", "mm")
 ### The equation of the line is: y =  -0.05261904761904779 mm/g x +  58.21428571428577 mm 
 
 
+### Exercise 2
 
+fig = plt.figure()
+plt.scatter(x, y, label='Data')
+plt.plot(x, linear(x, slope, intercept),label='Linear Fit') #change this label if you have a non-linear fit
+plt.legend(loc='best')
+plt.xlabel("grams (g)") #change the units as appropriate
+plt.ylabel("height (mm)")  #change the units as appropriate
+plt.show()
+
+fig.savefig('marshmellow_graph.png')
