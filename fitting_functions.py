@@ -1,8 +1,3 @@
-
-
-
-
-
 def linear(x, m, b):
     return m * x + b
 
